@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --ff-base: "Montserrat", system-ui, sans-serif;
+
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 2.5rem;
+  --fs-xl: 4rem;
+
+  --btn-label: var(--fw-md) var(--fs-base) / 1.5;
+  --span: var(--fw-md) var(--fs-sm) / 1.5;
+
+  /* Brand */
+  --snitap-sun: #ffcd1e;
+  --snitap-sky-mid: #06b6d4;
+  --snitap-sky-light: #67e8f9;
+  --snitap-joy-mid: #db2777;
+  --snitap-joy-light: #f472b6;
+  --snitap-leaf-mid: #16a34a;
+
+  /* Base */
+  --text-color: #000000;
+  --highlights: #000000;
+  --background: #fafafa;
+}
+
+html,
+button {
+  font: 500 1rem/1.5 var(--ff-base);
+}
+
+h1,
+h2 {
+  font-family: "Syne", sans-serif;
+}
+
+h1 {
+  font-size: var(--fs-xl);
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: var(--fs-lg);
+  line-height: 1.2;
+}
+
+@media (width <= 80em) {
+  :root {
+    --fs-sm: 0.75rem;
+    --fs-lg: 1.5rem;
+    --fs-xl: 2rem;
+  }
+}
