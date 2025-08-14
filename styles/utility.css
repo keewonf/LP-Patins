@@ -1,9 +1,25 @@
+.px-md {
+  padding-inline: var(--px-md);
+}
+
 .px-lg {
   padding-inline: var(--px-lg);
 }
 
+.px-xl {
+  padding-inline: var(--px-xl);
+}
+
 .py-sm {
   padding-block: var(--py-sm);
+}
+
+.py-md {
+  padding-block: var(--py-md);
+}
+
+.py-lg {
+  padding-block: var(--py-lg);
 }
 
 .container {
@@ -20,8 +36,8 @@
   align-items: center;
 }
 
-@media (max-width: 22.5em) {
+@media (max-width: 23.5em) {
   .container {
-    --max-width: 22.5em;
+    --max-width: 23.5em;
   }
 }

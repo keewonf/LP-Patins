@@ -31,9 +31,13 @@
   --background: #fafafa;
 
   /* Padding */
+  --px-md: 1.5rem;
   --px-lg: 2rem;
+  --px-xl: 3rem;
 
   --py-sm: 1.25rem;
+  --py-md: 1.5rem;
+  --py-lg: 2.5rem;
 }
 
 html,
@@ -61,7 +65,7 @@ a {
   text-decoration: none;
 }
 
-@media (max-width: 22.5em) {
+@media (max-width: 23.5em) {
   :root {
     --fs-sm: 0.75rem;
     --fs-lg: 1.5rem;
