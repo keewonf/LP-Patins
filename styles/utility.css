@@ -1,0 +1,27 @@
+.px-lg {
+  padding-inline: var(--px-lg);
+}
+
+.py-sm {
+  padding-block: var(--py-sm);
+}
+
+.container {
+  --max-width: 80em;
+  width: min(var(--max-width), 100% - var(--px-lg) * 2);
+  margin-inline: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+@media (max-width: 22.5em) {
+  .container {
+    --max-width: 22.5em;
+  }
+}
