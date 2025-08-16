@@ -1,7 +1,8 @@
 .hero {
   overflow: hidden;
   justify-content: space-between;
-  padding: 0 var(--px-lg);
+  padding: var(--py-lg) var(--px-lg);
+  
 }
 
 .hero.container {
