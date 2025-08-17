@@ -14,8 +14,11 @@
   --fs-lg: 2.5rem;
   --fs-xl: 4rem;
 
-  --btn-label: var(--fw-md) var(--fs-base) / 1.5;
-  --span: var(--fw-md) var(--fs-sm) / 1.5;
+  --fw-md: 500;
+
+  --btn-label: var(--fw-md) var(--fs-base) / 1.5 "Montserrat", system-ui,
+    sans-serif;
+  --span: var(--fw-md) var(--fs-sm) / 1.5 "Montserrat", system-ui;
 
   /* Colors Brand */
   --snitap-sun: #ffcd1e;

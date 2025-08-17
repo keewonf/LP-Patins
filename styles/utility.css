@@ -32,6 +32,10 @@
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .items-center {
   align-items: center;
 }
