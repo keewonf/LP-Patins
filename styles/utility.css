@@ -40,7 +40,7 @@
   align-items: center;
 }
 
-@media (max-width: 23.5em) {
+@media (max-width: 37.5em) {
   .container {
     --max-width: 23.5em;
   }

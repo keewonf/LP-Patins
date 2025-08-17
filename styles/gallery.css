@@ -116,7 +116,7 @@
   }
 }
 
-@media (max-width: 23.5em) {
+@media (max-width: 37.5em) {
   .gallery {
     & .container {
       padding-block: 1.5rem;

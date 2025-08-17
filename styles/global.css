@@ -68,7 +68,7 @@ a {
   text-decoration: none;
 }
 
-@media (max-width: 23.5em) {
+@media (max-width: 37.5em) {
   :root {
     --fs-sm: 0.75rem;
     --fs-lg: 1.5rem;
